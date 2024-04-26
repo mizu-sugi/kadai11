@@ -1,0 +1,76 @@
+/* stylesheet.css */
+.main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* タイトルのスタイル */
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff; /* タイトルの色を青に変更 */
+    text-align: center;
+}
+
+/* フォームアイテムのスタイル */
+.form-item {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+/* テキストエリアのスタイル */
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* 送信ボタンのスタイル */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* ホバー時のアニメーションを追加 */
+    }
+
+    .form-wrapper {
+        text-align: center;
+    }
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* ホバー時の背景色を濃い青に変更 */
+}
+
+/* ラジオボタンのスタイル */
+input[type="radio"] {
+    margin-right: 5px;
+    text-align: center;
+}
+
+.form-item {
+    font-weight: bold;
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .main {
+        max-width: 90%;
+    }
+}
+
